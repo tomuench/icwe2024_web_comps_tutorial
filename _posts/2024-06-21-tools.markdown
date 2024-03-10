@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Establishing a toolchain"
+date:   2024-06-20 09:30:00 +0100
+categories: workspace typescript rollupJS
+length: 50 minutes
+---
+
+# Knowledge Transfer (15 minutes)
+
+
+# Knowledge Application and Implementation (30 minutes)
+
+
+# Retrospective (5 minutes)
+- **Q&A Session**: Open floor for attendees to ask questions, clarify doubts, and discuss any challenges they encountered during the tutorial.
+- **Feedback Collection**: Quick feedback round to gather insights on the session's effectiveness, pacing, and content clarity. This will help in improving future sessions.
+- **Highlighting Next Steps**: Briefly discussing what the next steps would be for attendees wishing to further explore PWA development or deepen their understanding of TypeScript and RollupJS.

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Offline? Yes, please!"
+date:   2024-06-20 12:50:00 +0100
+categories: jekyll update
+---
+knowledge transfer (15 minutes), 2) knowledge application and implementation (40 minutes) and 3) retrospective (5 minutes).
+his session has the goal to build a PWA from the previous implemented page.
+The web app manifest, Service-Workers and experimental background synchro-
+nization are theoretically explained. For the Service-Workers, the tool Work-
+BoxJS is used to build a strategic for external APIs. At the end of the session,
+the attendees will have an installable PWA which is offline-ready.

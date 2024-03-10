@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Connecting web components to a page"
+date:   2024-06-20 12:00:00 +0100
+categories: jekyll update
+---
+knowledge transfer (15 minutes), 2) knowledge application and implementation (40 minutes) and 3) retrospective (5 minutes).
+After mastering a single web component, the communication between web com-
+ponents will be explained in detail. To do this in a structured way, the „Atomic
+Design“ approach, developed by Brad Frost is briefly introduced. This has, the
+goal, that the participants know the structure of larger web applications. The
+outcome is the understanding of event and shared state management within a
+single page with multiple components.

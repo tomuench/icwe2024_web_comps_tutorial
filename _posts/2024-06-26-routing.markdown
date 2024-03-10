@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Routing and storing data"
+date:   2024-06-20 13:40:00 +0100
+categories: jekyll update
+---
+knowledge transfer (15 minutes), 2) knowledge application and implementation (40 minutes) and 3) retrospective (5 minutes).
+The PWA implemented so far is then extended to a multi-page application. This
+extension allows to understand routing and the different browser based persis-
+tence comcepts. In detail, it is about URL parameters, Local-Storage, Session-
+Storage and IndexedDB. After this session, the attendees have implemented a
+multipage PWA with routing and data stored in the browser for offline usage
