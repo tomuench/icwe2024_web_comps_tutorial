@@ -6,13 +6,74 @@ categories: workspace typescript rollupJS
 length: 50 minutes
 ---
 
-# Knowledge Transfer (15 minutes)
+# Why TypeScript and RollupJS?
+Before diving into the setup process, it's crucial to understand why TypeScript and RollupJS form a powerful duo for web development projects.
+
+TypeScript is a statically typed superset of JavaScript that compiles to plain JavaScript. It offers developers the advantages of type safety, enhanced code quality, and predictability, which are invaluable for large-scale projects. TypeScript's comprehensive tooling and support for the latest JavaScript features make it a go-to choice for developers aiming for robustness and maintainability in their codebase.
+
+RollupJS, on the other hand, is a module bundler for JavaScript that efficiently compiles small pieces of code into something larger and more complex, such as a library or application. It's known for its speed, simplicity, and the ability to produce smaller, more efficient bundles compared to its counterparts. RollupJS's tree-shaking capability, which eliminates unused code, makes it an excellent choice for developers looking to optimize their projects for performance.
 
 
-# Knowledge Application and Implementation (30 minutes)
+# Setting Up Your Development Environment
+The goal of this first step is to ensure all attendees have a consistent development environment and a solid understanding of TypeScript and RollupJS. Here's how we'll achieve this:
 
+## Prerequisites
+Ensure you have Node.js installed on your system. Node.js is required to run JavaScript code outside a web browser, and it will be necessary for installing and running our development tools. You can download Node.js from the official website.
 
-# Retrospective (5 minutes)
+## Cloning the GitHub Project
+We've prepared a GitHub project containing all the necessary configuration files and sample code to get you started. Follow these steps to clone the project:
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where you want to clone the project.
+3. Run the command `git clone https://github.com/tomuench/icwe_2024_vanilla_js`. 
+4. Navigate into the project directory with `cd icwe_2024_vanilla_js`.
+5. Installing Dependencies by `npm install`. This command reads the package.json file and installs the required packages listed under dependencies and devDependencies. 
+
+## Understanding TypeScript 
+Before we proceed with TypeScript configuration, let's briefly touch on the key files:
+
+**tsconfig.json**: This file contains the compiler options required to compile the project. You'll find configurations for the target ECMAScript version, module resolution strategy, and more.
+
+**src/index.ts**: A sample TypeScript file to get you started. This is where you'll write your TypeScript code.
+
+## Configuring RollupJS
+For RollupJS, the key file is `rollup.config.js`. This configuration file specifies the input file, output file, plugins to use, and how to handle external dependencies. The project is pre-configured to use some common plugins for transpiling TypeScript, minifying code, and more.
+
+## Running the Build
+To compile your TypeScript code and bundle it with RollupJS, run npm run build. This script is defined in your package.json and handles the compilation and bundling process. The output will be a JavaScript file in the dist directory, ready to be included in a web page or application.
+
+## Integrating Generated Files with an HTML File
+Now that you have successfully set up your development environment and compiled your TypeScript code into a JavaScript bundle using RollupJS, the next step is to integrate this output into a web page. This chapter will guide you through the process of linking your generated JavaScript files with an HTML file, demonstrating how to make your code run in a browser environment.
+
+### Understanding the Output
+After running the build process with RollupJS, you will find the generated JavaScript file(s) in the dist directory of your project. This file is the bundled version of your TypeScript code, transpiled to JavaScript that browsers can understand and execute. The filename might look something like bundle.js, depending on the configuration in your rollup.config.js file.
+
+### Creating an HTML File
+To utilize the JavaScript code in a web environment, you need to create an HTML file that references the generated JavaScript file. Here's a step-by-step guide to creating a simple HTML file for this purpose:
+
+Create the HTML File: In the src-folder of your project directory, create a new file named `index.html`. This file will serve as the entry point to your application.
+
+Add Basic HTML Structure: Open `index.html` in your preferred text editor and add the basic HTML5 structure. Here's a simple template you can use:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project Title</title>
+</head>
+<body>
+    <h1>Hello, TypeScript and RollupJS!</h1>
+    <script src="bundle.js"></script>
+</body>
+</html>
+```
+
+# Conclusion
+Congratulations! You've successfully set up your development environment with TypeScript and RollupJS. You now have a solid foundation to start developing web applications. The key takeaway from this session is the importance of understanding your tools and how they fit into the development process. As you become more comfortable with TypeScript and RollupJS, you'll discover the benefits of type safety, code optimization, and the efficiency gains they bring to your projects.
+
+# Retrospective
 - **Q&A Session**: Open floor for attendees to ask questions, clarify doubts, and discuss any challenges they encountered during the tutorial.
 - **Feedback Collection**: Quick feedback round to gather insights on the session's effectiveness, pacing, and content clarity. This will help in improving future sessions.
 - **Highlighting Next Steps**: Briefly discussing what the next steps would be for attendees wishing to further explore PWA development or deepen their understanding of TypeScript and RollupJS.
