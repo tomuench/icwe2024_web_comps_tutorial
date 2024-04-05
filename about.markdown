@@ -13,4 +13,4 @@ Tobias Münch is CTO at Münch Gesellschaft für IT-Solutions mbH (MITS), where 
 
 The author has been involved in web-based systems for over 10 years, with a focus on web components since 2020. He published a number of papers in this area, including at the Web Developer Conference 2023. Additional, Tobias Münch working on his PhD Thesis at TU Chemnitz.
 
-![Tobias Münch](assets/images/tobias.png)
+![Tobias Münch](../assets/images/tobias.png)
