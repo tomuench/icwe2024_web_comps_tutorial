@@ -34,12 +34,21 @@ copyright: "{currentYear} {author}"
 banner:
   image: /assets/images/tutorial.webp
   opacity: 0.5
+  height: "500px"      
 
 # Build settings
 theme: jekyll-theme-yat
 plugins:
-  - jekyll-spaceship
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
+
+header_pages:
+  - index.markdown
+  - schedule.markdown
+  - about.markdown
 
 translate_langs:
   - lang: en

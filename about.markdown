@@ -1,18 +1,16 @@
 ---
-layout: page
-title: About
+layout: about
+title: about
+heading: "About the author"
+subheading: ""
 permalink: /about/
+hidden:
+  - navigator
+  - related_posts
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Tobias Münch is CTO at Münch Gesellschaft für IT-Solutions mbH (MITS), where Tobias is responsible for the Technology stack that is responsible for individual developments and products. He also actively trains his employees in the Technology stack and also uses it practically in various projects. The supervised projects and products originate primarily from the finance and veterinary medicine sectors. In a research project, Tobias deals with the resilience of distributed software systems.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+The author has been involved in web-based systems for over 10 years, with a focus on web components since 2020. He published a number of papers in this area, including at the Web Developer Conference 2023. Additional, Tobias Münch working on his PhD Thesis at TU Chemnitz.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+![Tobias Münch](/assets/images/tobias.png)
