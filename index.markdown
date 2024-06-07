@@ -12,7 +12,7 @@ Progressive Web Application from Scratch”, which will be held in Tampere (Finl
 
 ## Link to Tutorial Exercises
 
-https://github.com/tomuench/icwe2024_tutorial 
+[Excercieses Follow-Link](https://github.com/tomuench/icwe2024_tutorial)
 
 ## Abstract
 Nowadays, web applications are developed using different kind of web frameworks. The usage of them is always a trade-off between comfort, resource efficiency, and long-term dependency. This dependency can have a negative effect on maintainability. The Vanilla JS
