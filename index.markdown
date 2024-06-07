@@ -10,6 +10,10 @@ hidden:
 This website hosts the tutorial “Vanilla JS - Design and Implementation of a
 Progressive Web Application from Scratch”, which will be held in Tampere (Finland) during the [24th International Conference on Web Engineering (ICWE)](https://icwe2024.webengineering.org/). Thanks to [Dall-E](https://openai.com/dall-e-3) for the generated image.
 
+## Link to Tutorial Exercises
+
+https://github.com/tomuench/icwe2024_tutorial 
+
 ## Abstract
 Nowadays, web applications are developed using different kind of web frameworks. The usage of them is always a trade-off between comfort, resource efficiency, and long-term dependency. This dependency can have a negative effect on maintainability. The Vanilla JS
 approach avoids the use of frameworks and consequently relies on the strict use of W3C standards. In this tutorial, an offline-ready progressive web application (PWA) build, according to the frameworkless approach without increasing the development effort compared to development with respective frameworks. To solve this complex tasks, components of the web standard "Web Components" are introduced and used. Additionally, patterns for state management and offline capability as well as routing between different pages are discussed. Finally, the sample application is extended by a responsive design. The sample application is build in an iterative way, so the participants will learn theoretical concepts as well as practical implementation.
